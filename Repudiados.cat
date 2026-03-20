@@ -5,19 +5,6 @@
       <costs>
         <cost name="Puntos" typeId="7b59-aba4-6b66-2511" value="15"/>
       </costs>
-      <profiles>
-        <profile id="ca04c400-c1fd-4c69-95d7-69e90af44620" name="Guerrero" typeId="c53c-3edb-ebb7-e3c1" typeName="Miniatura">
-          <characteristics>
-            <characteristic name="Agilidad">3</characteristic>
-            <characteristic name="Combate">3</characteristic>
-            <characteristic name="Precisión "/>
-            <characteristic name="Fuerza">3</characteristic>
-            <characteristic name="Dureza">3</characteristic>
-            <characteristic name="Coraje">3</characteristic>
-            <characteristic name="PD">1</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
       <categoryLinks>
         <categoryLink targetId="e727-e977-42a2-4fb7" id="f5c0d210-443b-4917-a4f9-5fe835c34a4b" primary="true" name="Miembros de la banda"/>
         <categoryLink targetId="2f13-a24f-ee77-70d4" id="65ba-aba2-d049-a7e3" primary="false" name="Banda: Repudiados"/>
@@ -60,24 +47,14 @@
           </constraints>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <infoLinks>
+        <infoLink name="Guerrero" id="87bf-1c05-2d35-854e" hidden="false" type="profile" targetId="5a4b-053c-5705-a83e"/>
+      </infoLinks>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Veterano" hidden="false" id="9d451e72-32b0-4ed5-9ceb-6910238e946c">
       <costs>
         <cost name="Puntos" typeId="7b59-aba4-6b66-2511" value="25"/>
       </costs>
-      <profiles>
-        <profile id="f010a3ef-cd92-42e8-9c7f-701504514fb4" name="Veterano" typeId="c53c-3edb-ebb7-e3c1" typeName="Miniatura">
-          <characteristics>
-            <characteristic name="Agilidad">4</characteristic>
-            <characteristic name="Combate">4</characteristic>
-            <characteristic name="Precisión "/>
-            <characteristic name="Fuerza">4</characteristic>
-            <characteristic name="Dureza">4</characteristic>
-            <characteristic name="Coraje">4</characteristic>
-            <characteristic name="PD">2</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
       <categoryLinks>
         <categoryLink targetId="e727-e977-42a2-4fb7" id="c8b86494-ea86-48fb-9dc3-eeda3f8083dc" primary="true" name="Miembros de la banda"/>
         <categoryLink targetId="2f13-a24f-ee77-70d4" id="648f-b3e9-70da-5d6b" primary="false" name="Banda: Repudiados"/>
@@ -123,24 +100,14 @@
           </constraints>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <infoLinks>
+        <infoLink name="Veterano" id="74d1-12da-7ebf-88ea" hidden="false" type="profile" targetId="6190-f869-4778-ee42"/>
+      </infoLinks>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Héroe" hidden="false" id="cc3e99de-a102-4e79-a244-19b11b703edb">
       <costs>
         <cost name="Puntos" typeId="7b59-aba4-6b66-2511" value="40"/>
       </costs>
-      <profiles>
-        <profile id="b016083a-7356-4729-9cd7-dadd4bf98d12" name="Héroe" typeId="c53c-3edb-ebb7-e3c1" typeName="Miniatura">
-          <characteristics>
-            <characteristic name="Agilidad">6</characteristic>
-            <characteristic name="Combate">5</characteristic>
-            <characteristic name="Precisión "/>
-            <characteristic name="Fuerza">4</characteristic>
-            <characteristic name="Dureza">4</characteristic>
-            <characteristic name="Coraje">5</characteristic>
-            <characteristic name="PD">2</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
       <categoryLinks>
         <categoryLink targetId="e727-e977-42a2-4fb7" id="12e3fbfb-5d74-43c3-b976-024b1bd777b4" primary="true" name="Miembros de la banda"/>
         <categoryLink targetId="2f13-a24f-ee77-70d4" id="f809-5bbf-1863-7861" primary="false" name="Banda: Repudiados"/>
@@ -206,24 +173,14 @@
           </constraints>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <infoLinks>
+        <infoLink name="Héroe" id="ae1b-d4d8-ff72-9a73" hidden="false" type="profile" targetId="8b76-8148-c447-fa01"/>
+      </infoLinks>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Hechicero" hidden="false" id="0ef70164-f9c9-4f67-933b-b5b4499c4e2a">
       <costs>
         <cost name="Puntos" typeId="7b59-aba4-6b66-2511" value="50"/>
       </costs>
-      <profiles>
-        <profile id="2fd480b1-273d-4896-82fb-2bf2afe03bf1" name="Hechicero" typeId="c53c-3edb-ebb7-e3c1" typeName="Miniatura">
-          <characteristics>
-            <characteristic name="Agilidad">5</characteristic>
-            <characteristic name="Combate">2</characteristic>
-            <characteristic name="Precisión "/>
-            <characteristic name="Fuerza">3</characteristic>
-            <characteristic name="Dureza">3</characteristic>
-            <characteristic name="Coraje">5</characteristic>
-            <characteristic name="PD">2</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
       <categoryLinks>
         <categoryLink targetId="e727-e977-42a2-4fb7" id="61792120-5869-4c93-a5f2-dd8061b7bf91" primary="true" name="Miembros de la banda"/>
         <categoryLink targetId="2f13-a24f-ee77-70d4" id="df74-d162-35ac-77f2" primary="false" name="Banda: Repudiados"/>
@@ -334,24 +291,14 @@
           </constraints>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <infoLinks>
+        <infoLink name="Hechicero" id="8cbe-e69f-7fee-4fb0" hidden="false" type="profile" targetId="4fc9-9fcb-08a1-5cd1"/>
+      </infoLinks>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Criatura" hidden="false" id="6919052d-e550-4a58-91e1-4a5571e13223">
       <costs>
         <cost name="Puntos" typeId="7b59-aba4-6b66-2511" value="40"/>
       </costs>
-      <profiles>
-        <profile id="a5ea7254-4a7c-42dc-b4fd-22e9f75daa76" name="Criatura" typeId="c53c-3edb-ebb7-e3c1" typeName="Miniatura">
-          <characteristics>
-            <characteristic name="Agilidad">5</characteristic>
-            <characteristic name="Combate">4</characteristic>
-            <characteristic name="Precisión "/>
-            <characteristic name="Fuerza">5</characteristic>
-            <characteristic name="Dureza">5</characteristic>
-            <characteristic name="Coraje">5</characteristic>
-            <characteristic name="PD">2</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
       <categoryLinks>
         <categoryLink targetId="e727-e977-42a2-4fb7" id="7774e7ea-15a6-4539-8afa-88790665e39e" primary="true" name="Miembros de la banda"/>
         <categoryLink targetId="2f13-a24f-ee77-70d4" id="e387-cb79-2309-030a" primary="false" name="Banda: Repudiados"/>
@@ -428,6 +375,9 @@
           </constraints>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <infoLinks>
+        <infoLink name="Criatura" id="b8a0-bf17-10c3-c596" hidden="false" type="profile" targetId="b748-3a9d-5c3f-3897"/>
+      </infoLinks>
     </selectionEntry>
   </selectionEntries>
 </catalogue>
