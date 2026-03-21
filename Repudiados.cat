@@ -6,9 +6,9 @@
         <categoryLink targetId="2f13-a24f-ee77-70d4" id="b1e2-2362-122c-3eb8" primary="false" name="Banda: Repudiados"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink import="true" name="Guerrero" hidden="false" id="e061-fdc0-26d7-8fad" type="selectionEntry" targetId="b1cd-4da6-a310-533d">
+        <entryLink import="true" name="Guerrero" hidden="false" id="e061-fdc0-26d7-8fad" type="selectionEntry" targetId="e45e-5b09-65de-d716">
           <selectionEntryGroups>
-            <selectionEntryGroup name="Armas" id="7956-4ec5-610f-14d6" hidden="false">
+            <selectionEntryGroup name="Armas" id="7956-4ec5-610f-14d6" hidden="false" collapsible="true">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6e95-5556-87fc-927b" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5459-2f01-fdf5-4b15" includeChildSelections="false"/>
@@ -25,16 +25,11 @@
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
+          <categoryLinks>
+            <categoryLink targetId="e727-e977-42a2-4fb7" id="39c9-a20d-995f-5a1a" primary="true" name="Miembros de la banda"/>
+          </categoryLinks>
         </entryLink>
       </entryLinks>
-    </selectionEntry>
-    <selectionEntry type="model" import="true" name="Guerrero" hidden="false" id="b1cd-4da6-a310-533d">
-      <infoLinks>
-        <infoLink name="Guerrero" id="63cf-2a8c-dc4e-0ea9" hidden="false" type="profile" targetId="5a4b-053c-5705-a83e"/>
-      </infoLinks>
-      <costs>
-        <cost name="Puntos" typeId="7b59-aba4-6b66-2511" value="15"/>
-      </costs>
     </selectionEntry>
   </selectionEntries>
 </catalogue>

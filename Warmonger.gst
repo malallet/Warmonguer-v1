@@ -269,6 +269,9 @@ Abatido).</description>
         <infoLink id="861d272a-381b-44ce-967a-a7eb579a87d4" name="Armas gemelas" type="rule" targetId="7945a01e-3892-42bc-a3a1-dc3eeb337b21"/>
         <infoLink name="Filo Medio" id="5bba-c334-bbde-7bec" hidden="false" type="profile" targetId="7e03-0673-1dc5-5aae"/>
       </infoLinks>
+      <categoryLinks>
+        <categoryLink targetId="cee5-fe50-6358-38c3" id="b8fd-4a60-8f15-7223" primary="false" name="Armas"/>
+      </categoryLinks>
     </selectionEntry>
     <selectionEntry id="23a2ec86-e98b-48f1-ba2e-8be6c7567a9d" name="Filo pequeño" type="upgrade" hidden="false">
       <costs>
@@ -1951,13 +1954,16 @@ Abatido).</description>
         <infoLink id="d00e40cd-d8f8-48bb-88e0-fbfd8f7c6198" name="Bruja" hidden="false" type="rule" targetId="b288-d9e2-633b-ec64"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="model" import="true" name="Guerrero" hidden="false" id="e45e-5b09-65de-d716">
+    <selectionEntry type="model" name="Guerrero" hidden="false" id="e45e-5b09-65de-d716">
       <costs>
         <cost name="Puntos" typeId="7b59-aba4-6b66-2511" value="15"/>
       </costs>
       <infoLinks>
         <infoLink name="Guerrero" id="40b0-6925-01c2-cc24" hidden="false" type="profile" targetId="5a4b-053c-5705-a83e"/>
       </infoLinks>
+      <categoryLinks>
+        <categoryLink targetId="e727-e977-42a2-4fb7" id="3f92-4d84-3c18-e151" primary="true" name="Miembros de la banda"/>
+      </categoryLinks>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Veterano" hidden="false" id="6d20-be51-e2da-5567">
       <infoLinks>
