@@ -1,35 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="d7962e3e-4b47-4ede-8377-a24964a0ffed" name="Repudiados" gameSystemId="sys-d55f-1a5a-6e3f-82d4" gameSystemRevision="4" revision="2" authorName="Malallet" battleScribeVersion="2.03" type="catalogue">
-  <selectionEntries>
-    <selectionEntry type="unit" import="true" name="Repudiados" hidden="false" id="4159-aece-a639-5a5b">
-      <categoryLinks>
-        <categoryLink targetId="2f13-a24f-ee77-70d4" id="b1e2-2362-122c-3eb8" primary="false" name="Banda: Repudiados"/>
-      </categoryLinks>
+  <entryLinks>
+    <entryLink import="true" name="Guerrero" hidden="false" id="093b-c554-c4f3-eb00" type="selectionEntry" targetId="e45e-5b09-65de-d716">
       <entryLinks>
-        <entryLink import="true" name="Guerrero" hidden="false" id="e061-fdc0-26d7-8fad" type="selectionEntry" targetId="e45e-5b09-65de-d716">
-          <selectionEntryGroups>
-            <selectionEntryGroup name="Armas" id="7956-4ec5-610f-14d6" hidden="false" collapsible="true">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6e95-5556-87fc-927b" includeChildSelections="false"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5459-2f01-fdf5-4b15" includeChildSelections="false"/>
-              </constraints>
-              <entryLinks>
-                <entryLink import="true" name="Garras" hidden="false" id="517d-2598-ce41-fa4b" type="selectionEntry" targetId="2f3f9400-25d5-4fc5-8f86-d91ef63d7d22"/>
-                <entryLink import="true" name="Armas arrojadizas" hidden="false" id="f523-08ee-8b3a-127f" type="selectionEntry" targetId="33ba790c-856e-48ca-83dc-e68d2778e6d0"/>
-                <entryLink import="true" name="Cerbatana" hidden="false" id="bc5f-a186-7b20-c62f" type="selectionEntry" targetId="849a8edb-d831-436d-ab80-de94addb8561"/>
-                <entryLink import="true" name="Filo pequeño" hidden="false" id="0f65-f2f2-139f-dd29" type="selectionEntry" targetId="23a2ec86-e98b-48f1-ba2e-8be6c7567a9d"/>
-                <entryLink import="true" name="Lanza" hidden="false" id="4bcd-3339-8e46-3fea" type="selectionEntry" targetId="86cbea1c-a089-4ba1-af19-624ca75890b1"/>
-                <entryLink import="true" name="Maza" hidden="false" id="a365-6655-a74a-8e69" type="selectionEntry" targetId="df10f2cc-de47-47e4-baf4-02e30157a528"/>
-                <entryLink import="true" name="Jabalina" hidden="false" id="7b29-8575-630a-90b8" type="selectionEntry" targetId="1d6d992b-3f10-4ebd-a1dd-ed2f00faee7c"/>
-                <entryLink import="true" name="Arco" hidden="false" id="9d16-9d0a-7a8a-4da8" type="selectionEntry" targetId="2bfee622-27ac-4f8e-a988-0c34f5b8f8f7"/>
-              </entryLinks>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <categoryLinks>
-            <categoryLink targetId="e727-e977-42a2-4fb7" id="39c9-a20d-995f-5a1a" primary="true" name="Miembros de la banda"/>
-          </categoryLinks>
-        </entryLink>
+        <entryLink import="true" name="Armas Cuerpo a Cuerpo" hidden="false" id="af19-65c4-a27a-7cb3" type="selectionEntryGroup" targetId="d96dc09c-5446-48fa-a615-be0ec3564b42"/>
       </entryLinks>
-    </selectionEntry>
-  </selectionEntries>
+    </entryLink>
+  </entryLinks>
 </catalogue>

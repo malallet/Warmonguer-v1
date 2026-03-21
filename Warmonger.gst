@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem xmlns="http://www.battlescribe.net/schema/gameSystemSchema" id="sys-d55f-1a5a-6e3f-82d4" name="Warmonger a mano" battleScribeVersion="2.03" revision="4" type="gameSystem" library="false" authorName="Malallet">
+<gameSystem xmlns="http://www.battlescribe.net/schema/gameSystemSchema" id="sys-d55f-1a5a-6e3f-82d4" name="Warmonger a mano" battleScribeVersion="2.03" revision="5" type="gameSystem" library="false" authorName="Malallet">
   <categoryEntries>
     <categoryEntry name="A dos manos" id="ea2a-00fc-551c-54c2" hidden="true">
       <constraints>
@@ -2003,12 +2003,8 @@ Abatido).</description>
       <entryLinks>
         <entryLink id="d37cb23b-8644-4b81-8925-23462d23929b" name="Filo medio" type="selectionEntry" targetId="9cc57462-9a06-447e-8c0c-672c8c000477"/>
         <entryLink id="39022fb5-3024-4e36-b995-01b912c4ceae" name="Filo pequeño" type="selectionEntry" targetId="23a2ec86-e98b-48f1-ba2e-8be6c7567a9d"/>
-        <entryLink id="27d2937b-a415-49ee-8cbd-e0f305c7fc10" name="Filo pesado" type="selectionEntry" targetId="07437af2-8eca-4799-845d-ff51f98b0289"/>
-        <entryLink id="2217ac78-9838-4dad-bda5-c62c39c4628b" name="Garras" type="selectionEntry" targetId="2f3f9400-25d5-4fc5-8f86-d91ef63d7d22"/>
         <entryLink id="8748e2ca-b7d8-4d6c-bfdf-540b4987eb5d" name="Lanza" type="selectionEntry" targetId="86cbea1c-a089-4ba1-af19-624ca75890b1"/>
-        <entryLink id="d9643390-c0e7-46c5-afed-43c0034f3fd1" name="Mandíbulas" type="selectionEntry" targetId="995f3396-c8fc-4e83-82a6-9dcba84f2745"/>
         <entryLink id="f11d4b3c-c213-4929-8161-0dca508c0bc9" name="Maza" type="selectionEntry" targetId="df10f2cc-de47-47e4-baf4-02e30157a528"/>
-        <entryLink id="06118a68-22e6-40bf-b8df-2440e08ce513" name="Maza pesada" type="selectionEntry" targetId="188d5cf4-d407-425c-aaeb-f7cf3980ebcc"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="4289ba8e-c75c-47f0-b227-ad2903e4be5c" name="Armas a Distancia" hidden="false">
