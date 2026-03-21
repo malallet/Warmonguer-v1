@@ -1958,9 +1958,6 @@ Abatido).</description>
       <costs>
         <cost name="Puntos" typeId="7b59-aba4-6b66-2511" value="15"/>
       </costs>
-      <infoLinks>
-        <infoLink name="Guerrero" id="40b0-6925-01c2-cc24" hidden="false" type="profile" targetId="5a4b-053c-5705-a83e"/>
-      </infoLinks>
       <categoryLinks>
         <categoryLink targetId="e727-e977-42a2-4fb7" id="3f92-4d84-3c18-e151" primary="true" name="Miembros de la banda"/>
       </categoryLinks>

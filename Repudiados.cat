@@ -1,10 +1,25 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="d7962e3e-4b47-4ede-8377-a24964a0ffed" name="Repudiados" gameSystemId="sys-d55f-1a5a-6e3f-82d4" gameSystemRevision="4" revision="2" authorName="Malallet" battleScribeVersion="2.03" type="catalogue">
-  <entryLinks>
-    <entryLink import="true" name="Guerrero" hidden="false" id="093b-c554-c4f3-eb00" type="selectionEntry" targetId="e45e-5b09-65de-d716">
+  <sharedSelectionEntries>
+    <selectionEntry type="model" import="true" name="Guerrero" hidden="false" id="e1b6-620c-d0af-78be">
       <entryLinks>
-        <entryLink import="true" name="Armas Cuerpo a Cuerpo" hidden="false" id="af19-65c4-a27a-7cb3" type="selectionEntryGroup" targetId="d96dc09c-5446-48fa-a615-be0ec3564b42"/>
+        <entryLink import="true" name="Guerrero" hidden="false" id="7387-3c2f-58be-2830" type="selectionEntry" targetId="e45e-5b09-65de-d716">
+          <infoLinks>
+            <infoLink name="Guerrero" id="d4b2-57c3-3ef9-6651" hidden="false" type="profile" targetId="5a4b-053c-5705-a83e"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink targetId="e727-e977-42a2-4fb7" id="3309-41e8-d09b-02b0" primary="true" name="Miembros de la banda"/>
+          </categoryLinks>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Armas" hidden="false" id="0fc9-e58d-94ac-c806">
+              <entryLinks>
+                <entryLink import="true" name="Maza" hidden="false" id="a650-085d-cce0-3441" type="selectionEntry" targetId="df10f2cc-de47-47e4-baf4-02e30157a528"/>
+                <entryLink import="true" name="Filo medio" hidden="false" id="caf3-6315-b5f7-4f0f" type="selectionEntry" targetId="9cc57462-9a06-447e-8c0c-672c8c000477"/>
+              </entryLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </entryLink>
       </entryLinks>
-    </entryLink>
-  </entryLinks>
+    </selectionEntry>
+  </sharedSelectionEntries>
 </catalogue>
